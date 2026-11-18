@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CABINET TIKADA Moubinou Tankpinou & Associés | Étude Notariale</title>
+    <!-- Font Awesome (Icônes) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-scale-balanced logo-icon"></i>
+                <div class="logo-text">
+                    <span class="brand-name">CABINET TIKADA</span>
+                    <span class="brand-sub">Moubinou Tankpinou</span>
+                </div>
+            </a>
+            <nav class="navbar">
+                <a href="#hero" class="nav-link active">Accueil</a>
+                <a href="#apropos" class="nav-link">L'Étude</a>
+                <a href="#services" class="nav-link">Prestations</a>
+                <a href="#rdv" class="nav-link btn-nav">Prendre Rendez-vous</a>
+            </nav>
+            <button class="mobile-toggle" aria-label="Menu Mobile">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- 1. Hero / Carousel Section -->
+    <section id="hero" class="hero-carousel">
+        <div class="slide active" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), url('/image/Gemini_Generated_Image_y3dptpy3dptpy3dp.jpg');">
+            <div class="hero-content">
+                <span class="hero-badge">Rigueur & Authenticité</span>
+                <h1>Sécuriser vos actes, protéger votre patrimoine</h1>
+                <p>Accompagnement juridique sur mesure pour les particuliers, les entreprises et les collectivités.</p>
+                <a href="#rdv" class="btn-primary">Consulter un Notaire</a>
+            </div>
+        </div>
+        <div class="slide" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), url('/image/Gemini_Generated_Image_64s4dk64s4dk64s4.jpg');">
+            <div class="hero-content">
+                <span class="hero-badge">Excellence & Confiance</span>
+                <h1>Votre partenaire juridique dans chaque étape clef</h1>
+                <p>Immobilier, succession, droit des affaires et conseil patrimonial avec une expertise reconnue.</p>
+                <a href="#services" class="btn-primary">Découvrir nos services</a>
+            </div>
+        </div>
+
+        <!-- Carousel Indicators & Controls -->
+        <button class="carousel-control prev" aria-label="Précédent"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="carousel-control next" aria-label="Suivant"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+        </div>
+    </section>
+
+    <!-- 2. À Propos Section -->
+    <section id="apropos" class="section-padding apropos-section">
+        <div class="container grid-2">
+            <div class="apropos-img-box">
+                <img src="/image/PHOTO-2026-11-09-09-38-45.jpg" alt="Étude Notariale - Signature d'acte" class="img-responsive">
+                <div class="badge-experience">
+                    <span class="years">25+</span>
+                    <span class="text">Années d'Excellence</span>
+                </div>
+            </div>
+            <div class="apropos-text-box">
+                <span class="section-subtitle">À PROPOS DE L'ÉTUDE</span>
+                <h2>Une tradition de confiance, une vision moderne du Notariat</h2>
+                <p class="lead">Officier public et ministériel, notre étude s'engage à conférer l'authenticité aux actes tout en garantissant la sécurité juridique de vos engagements.</p>
+                <p>Nous combinons la rigueur du droit classique avec des solutions digitales modernes pour vous offrir un suivi réactif, confidentiel et entièrement personnalisé.</p>
+
+                <div class="engagements-grid">
+                    <div class="engagement-item">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <div>
+                            <h4>Sécurité Juridique</h4>
+                            <p>Des actes authentiques incontestables et conformes aux lois en vigueur.</p>
+                        </div>
+                    </div>
+                    <div class="engagement-item">
+                        <i class="fa-solid fa-user-lock"></i>
+                        <div>
+                            <h4>Confidentialité</h4>
+                            <p>Une discrétion absolue garantie par le secret professionnel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Prestations de Services Section -->
+    <section id="services" class="section-padding services-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">NOS COMPÉTENCES</span>
+                <h2>Domaines d'Expertise Notariale</h2>
+                <p>Cliquez sur un service pour afficher ses détails opérationnels.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card" data-service="1">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h3>Droit Immobilier</h3>
+                    <p>Compromis, ventes, actes de prêt et servitudes.</p>
+                    <span class="link-more">En savoir plus <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card" data-service="2">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-people-roof"></i>
+                    </div>
+                    <h3>Droit de la Famille</h3>
+                    <p>Contrats de mariage, donations et divorces.</p>
+                    <span class="link-more">En savoir plus <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card" data-service="3">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-box-archive"></i>
+                    </div>
+                    <h3>Successions & Patrimoine</h3>
+                    <p>Règlement de successions, testaments et partages.</p>
+                    <span class="link-more">En savoir plus <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card" data-service="4">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <h3>Droit des Affaires</h3>
+                    <p>Création de sociétés, baux commerciaux et cessions.</p>
+                    <span class="link-more">En savoir plus <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card" data-service="5">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3>Gestion Patrimoniale</h3>
+                    <p>Optimisation fiscale, démembrement et holding familiale.</p>
+                    <span class="link-more">En savoir plus <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card" data-service="6">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-building-flag"></i>
+                    </div>
+                    <h3>Droit Rural & Collectivités</h3>
+                    <p>Baux ruraux, foncier agricole et droit public.</p>
+                    <span class="link-more">En savoir plus <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal pour Agrandir les Services -->
+    <div id="service-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-icon"><i id="modal-icon-class" class="fa-solid"></i></div>
+                <h3 id="modal-title">Titre du service</h3>
+                <p id="modal-description">Description détaillée du service notarial...</p>
+                <ul id="modal-list" class="modal-details-list">
+                    <!-- Généré dynamiquement -->
+                </ul>
+                <a href="#rdv" class="btn-primary modal-btn" id="modal-rdv-btn">Prendre RDV pour ce motif</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. Prise de Rendez-vous Section -->
+    <section id="rdv" class="section-padding rdv-section">
+        <div class="container grid-2">
+            <div class="rdv-info">
+                <span class="section-subtitle">CONSULTATION</span>
+                <h2>Prendre un Rendez-vous en Ligne</h2>
+                <p>Sélectionnez le motif de consultation ainsi que le créneau souhaité. Nos services confirmeront votre demande sous 24h ouvrées.</p>
+
+                <div class="info-details">
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>420, carré 195-196 04 B.P.1485 COTONOU<br>
+                           Avenue Steinmetz MISSEBO Rue DHL (Ex rue AIR GABON)<br>
+                           2ème Immeuble à étage à gauche</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>01 97 47 19 23</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>etudecabinettikada.bj</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Du Lundi au Vendredi : 08h30 – 19h00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rdv-form-wrapper">
+                <form id="appointment-form" class="rdv-form">
+                    <div class="form-group">
+                        <label for="fullname">Nom & Prénom *</label>
+                        <input type="text" id="fullname" name="name" required placeholder="Jean Dupont">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="j.dupont@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="01 97 47 19 23">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="domain">Domaine Concerné *</label>
+                        <select id="domain" name="domain" required>
+                            <option value="" disabled selected>Sélectionnez votre motif</option>
+                            <option value="Droit Immobilier (Achat, Vente)">Droit Immobilier (Achat, Vente)</option>
+                            <option value="Droit de la Famille (Mariage, Pacs, Divorce)">Droit de la Famille (Mariage, Pacs, Divorce)</option>
+                            <option value="Succession & Donation">Succession & Donation</option>
+                            <option value="Droit des Affaires & Sociétés">Droit des Affaires & Sociétés</option>
+                            <option value="Autre Conseil Notarial">Autre Conseil Notarial</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Date Souhaitée *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Heure Souhaitée *</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Précisions sur votre dossier (Facultatif)</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Quelques mots pour décrire la situation..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary btn-block">Confirmer le Rendez-vous</button>
+                    <div id="form-feedback" class="form-feedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Footer Section -->
+    <footer class="footer">
+        <div class="container footer-top grid-4">
+            <div class="footer-col">
+                <div class="logo footer-logo">
+                    <i class="fa-solid fa-scale-balanced logo-icon"></i>
+                    <div class="logo-text">
+                        <span class="brand-name">CABINET TIKADA</span>
+                        <span class="brand-sub">Moubinou Tankpinou</span>
+                    </div>
+                </div>
+                <p class="footer-desc">Officier public veillant à la sécurité juridique et à la protection des droits de chaque citoyen et entreprise.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Accès Rapide</h4>
+                <ul>
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#apropos">L'Étude Notariale</a></li>
+                    <li><a href="#services">Nos Prestations</a></li>
+                    <li><a href="#rdv">Prendre Rendez-vous</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Domaines d'Intervention</h4>
+                <ul>
+                    <li><a href="#services">Droit Immobilier</a></li>
+                    <li><a href="#services">Droit de la Famille</a></li>
+                    <li><a href="#services">Successions & Libéralités</a></li>
+                    <li><a href="#services">Droit des Affaires</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Mentions Légales</h4>
+                <ul>
+                    <li><a href="#">Secret Professionnel</a></li>
+                    <li><a href="#">Politique de Confidentialité</a></li>
+                    <li><a href="#">Tarifs Réglementés</a></li>
+                    <li><a href="#">Chambre des Notaires</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container bottom-flex">
+                <p>&copy; 2026 CABINET TIKADA Moubinou Tankpinou. Tous droits réservés.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
